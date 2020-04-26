@@ -44,11 +44,11 @@ In order to do that a [GoSave API](https://app.swaggerhub.com/apis/jaumebrossa/G
 * **GET** **/decision/dangerzones** --> Returns all danger zones with their scores
 * **POST** **/decision/dangerzones** --> Post new danger zones to be included in the app
 
-## Challenges I ran into
+## Challenges we ran into
 
-## Accomplishments that I'm proud of
+## Accomplishments that we are proud of
 
-## What I learned
+## What we learned
 
 ## What's next for GoSafe
 GoSafe is currently an idea under development. As future steps, it needs to move from a prototype to a fully functional application by working on its front-end and story design.
