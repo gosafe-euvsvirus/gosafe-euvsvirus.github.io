@@ -2,14 +2,14 @@
 EUvsVirus project
 
 ## Inspiration
-Children need to play outside for a healthy growth. After a long period of confinement and with new social distancing rules, the experience of returning to the streets can be hard for a lot of them. GoSafe offers a solution to this situation. It consists on a path-finder game app designed for helping children have fun outside while helping them keep social distancing best practices.
+Children need to play outside for a healthy growth. After a long period of confinement and with new social distancing rules, the experience of returning to the streets can be hard for a lot of them. **GoSafe** offers a solution to this situation. It consists on a path-finder game app designed for helping children have fun outside while helping them keep social distancing best practices.
 
 ## What it does
-GoSafe challenges children to go on different "expeditions" to different locations around them. It does it in a game manner where they follow a story where they are the main characters. The players are rewarded by avoiding "danger zones" and by completing the different tasks the game proposes.
+**GoSafe** challenges children to go on different *expeditions* to different locations around them. It does it in a game manner where they follow a story where they are the main characters. The players are rewarded by avoiding *danger zones* and by completing the different tasks the game proposes.
 
-In the back-end, GoSafe is continuously calculating which areas in the city are the safest for the children to be in. It helps children avoid areas such as hospitals, stores and train stations, to avoid big concentrations of people. It also avoids direct contact with other GoSafe players, by allowing them to communicate through the app and work together on connected missions.
+In the back-end, **GoSafe** is continuously calculating which areas in the city are the safest for the children to be in. It helps children avoid areas such as hospitals, stores and train stations, to avoid big concentrations of people. It also avoids direct contact with other **GoSafe** players, by allowing them to communicate through the app and work together on connected missions.
 
-GoSafe also allows city administrators to add new danger zones and redirect people according to the local knowledge and specific needs. It can also be used as a tool to make decisions on confinement management and public health matters.
+**GoSafe** also allows city administrators to add new danger zones and redirect people according to the local knowledge and specific needs. It can also be used as a tool to make decisions on confinement management and public health matters.
 
 ## How we built it
 ### Dataset
@@ -51,5 +51,5 @@ In order to do that a [GoSave API](https://app.swaggerhub.com/apis/jaumebrossa/G
 ## What we learned
 
 ## What's next for GoSafe
-GoSafe is currently an idea under development. As future steps, it needs to move from a prototype to a fully functional application by working on its front-end and story design.
-GoSafe provides the foundations for a web application that can be used by children, family and by city administrators to help stop the spread of the virus.
+**GoSafe** is currently an idea under development. As future steps, it needs to move from a prototype to a fully functional application by working on its front-end and story design.
+**GoSafe** provides the foundations for a web application that can be used by children, family and by city administrators to help stop the spread of the virus.
