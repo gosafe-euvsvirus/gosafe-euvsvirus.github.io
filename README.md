@@ -1,5 +1,4 @@
-# gosafe.github.io
-EUvsVirus project
+![](imgs/Captura4.png)
 
 ## Inspiration
 Children need to play outside for a healthy growth. After a long period of confinement and with new social distancing rules, the experience of returning to the streets can be hard for a lot of them. **GoSafe** offers a solution to this situation. It consists on a path-finder game app designed for helping children have fun outside while helping them keep social distancing best practices.
