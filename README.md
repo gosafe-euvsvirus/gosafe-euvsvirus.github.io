@@ -18,7 +18,7 @@ We started downloading up to 13000 POI locations from the [Barcelona Open Data P
 All the `netCDF` files are stored in the back-end so when the client request a position score through the API, it can answer as fast as possible. These score matrices are also looked up when the player stats a new game. In this case, an algo choose a random route destination, located between 600 and 800 meters from the origin and checking that the proposed location has an associated risk above a threshold. The back-end also stores each new possition sent by the client during a walk so at the end it can send total score and store past walks in a `MongoDB` database.
 
 ### API
-In order to do that a [GoSave API](https://app.swaggerhub.com/apis/jaumebrossa/GoSafeAPI/1.0.0#/) has been created using `Swagger`. It has the following endpoints and operations:
+The **GoSafe** system is based on a `REST API`, which has been published following the Open API specification and available on [`Swaggerhub`](https://app.swaggerhub.com/apis/jaumebrossa/GoSafeAPI/1.0.0#/):
 
 **game** *(Everything used while playing)*
 * **GET** **/game/destination/{start}** --> Get destination for the current game
@@ -44,10 +44,19 @@ In order to do that a [GoSave API](https://app.swaggerhub.com/apis/jaumebrossa/G
 * **POST** **/decision/dangerzones** --> Post new danger zones to be included in the app
 
 ## Challenges we ran into
+* **Project scope** We're a heterogeneous team in terms of age and context, so we've first addressed the identification of the challenge objective and the framing of a solution presenting an impact solution both for kids and decision-makers.
+* **Mechanics of the game** We've devoted a significant amount of effort to come up with an actual location-based game designed for the specific purpose of managing children mobility while keeping social distance.
+* **UX aspects** We've also defined wireframes for the key user interfaces in our system. Such interfaces must promote engagement and adoption amongst children, whilst providing also background information on safe social distancing practices and aggregated data for decision making
+* Specify, prototype implementation and testing **key system logics**: next destination, scoring of a location
+* **Key system backend processes** We've addressed and prototyped the key backend processes around geospatial data analysis (area density, scoring of a location). Although not totally implemented, the code build we've reached already presents a feasible and scalable software solution for the user stories in scope.
 
 ## Accomplishments that we are proud of
+Team work. Relevant goal. Innovative solution. Meaningful stack
 
 ## What we learned
+* We've learned that people comes first, and the tech provides a solution. A highly relevant use case with a good enough tech is much better than a superb tech addressing a non-existing problem
+* We've learned that lateral thinking is always good, and that moving beyond your confort zone (Machine Learning, sotware engineering...) helps to improve the quality and innovation of what you're building
+* We've learned (again) that hacking together is great
 
 ## What's next for GoSafe
 **GoSafe** is currently an idea under development. As future steps, it needs to move from a prototype to a fully functional application by working on its front-end and story design.
